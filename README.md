@@ -3,7 +3,7 @@
 
 Este repositorio contiene el desarrollo de un **modelo NLP en dos capas** diseñado para predecir el desempeño de un video de YouTube a partir de la información y el análisis de sentimiento de sus comentarios.
 
-## 📋 Resumen del Proyecto
+##  Resumen del Proyecto
 - **Dataset:** [advaypatil/youtube-statistics](https://www.kaggle.com/datasets/advaypatil/youtube-statistics)
 - **Autores:** Jhon Eduard Tinjaca Cruz y Julián David Silva Guzmán
 - **Enfoque:** Arquitectura híbrida en dos fases:
@@ -12,7 +12,7 @@ Este repositorio contiene el desarrollo de un **modelo NLP en dos capas** diseñ
 
 ---
 
-## 📊 Resultados y Respuestas Clave
+##  Resultados y Respuestas Clave
 
 ### 1. ¿Cuál fue el modelo seleccionado?
 - **Capa A (Sentimiento):** **TF-IDF + Regresión Logística** optimizada con búsqueda en cuadrícula (hiperparámetros óptimos: `C: {gs.best_params_.get('clf__C')}`, `min_df: {gs.best_params_.get('tfidf__min_df')}`, `ngram_range: {gs.best_params_.get('tfidf__ngram_range')}`). Se prefiere sobre modelos Transformer (como RoBERTa) por su balance de costo computacional y alta interpretabilidad.
@@ -50,7 +50,7 @@ Se probaron un total de **{n_total} configuraciones/ajustes** en la experimentac
 
 ---
 
-## 🛠️ Instrucciones de Uso
+##  Instrucciones de Uso
 
 1. Clonar el repositorio.
 2. Asegurarse de tener instaladas las dependencias necesarias:
