@@ -1,5 +1,5 @@
 # Proyecto-estad-sticas-de-Youtube-Avances-III
-readme_content = f"""# Proyecto Estadísticas de YouTube - Avances III
+
 
 Este repositorio contiene el desarrollo de un **modelo NLP en dos capas** diseñado para predecir el desempeño de un video de YouTube a partir de la información y el análisis de sentimiento de sus comentarios.
 
